@@ -1,0 +1,22 @@
+﻿Build started 11/13/2018 7:15:59 PM.
+     1>Project "E:\sfml project\testgame\testgame\testgame.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\sfml project\testgame\SFML\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\sfml project\testgame\testgame\source.cpp(619): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\sfml project\testgame\testgame\source.cpp(627): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\sfml project\testgame\testgame\source.cpp(1600): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\sfml project\testgame\testgame\source.cpp(1676): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\sfml project\testgame\testgame\source.cpp(1753): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\sfml project\testgame\testgame\source.cpp(1829): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\sfml project\testgame\testgame\source.cpp(1905): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\sfml project\testgame\testgame\source.cpp(3296): warning C4305: '+=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\sfml project\testgame\Debug\testgame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\sfml project\testgame\SFML\lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\sfml project\testgame\Debug\testgame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\sfml project\testgame\Debug\testgame.lib" /MACHINE:X86 Debug\Source.obj
+         testgame.vcxproj -> E:\sfml project\testgame\Debug\testgame.exe
+     1>Done Building Project "E:\sfml project\testgame\testgame\testgame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.14

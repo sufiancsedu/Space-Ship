@@ -1,0 +1,18 @@
+﻿Build started 11/1/2018 8:17:48 PM.
+     1>Project "E:\sfml project\test\test\test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\sfml project\testgame\SFML\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\sfml project\test\test\source.cpp(167): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\sfml project\test\test\source.cpp(171): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\sfml project\test\test\source.cpp(272): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>e:\sfml project\test\test\source.cpp(278): warning C4305: '+=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\sfml project\test\Debug\test.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\ASUS\Desktop\test\SFML-2.5.0\lib" "sfml-window-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\sfml project\test\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\sfml project\test\Debug\test.lib" /MACHINE:X86 Debug\Source.obj
+         LINK : E:\sfml project\test\Debug\test.exe not found or not built by the last incremental link; performing full link
+     1>LINK : fatal error LNK1104: cannot open file 'sfml-window-d.lib'
+     1>Done Building Project "E:\sfml project\test\test\test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.03
